@@ -3,23 +3,18 @@
 /**
  * main - Entry point
  *
- * Description: 'puts function'
+ * Description: 'putchar function'
  *
  * Return: Always 0 (Success)
 */
 int main(void)
 {
-	char x;
+	int x;
 
-	for (x = 'a'; x <= 'z'; x++)
+	for (x = 0; x <= 9; x++)
 	{
-	putchar(x);
-	}
-	for (x = 'A'; x <= 'Z'; x++)
-	{
-	putchar(x);
+	putchar (x + '0');
 	}
 	putchar('\n');
-
 	return (0);
 }
