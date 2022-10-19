@@ -1,8 +1,8 @@
 #include <unistd.h>
 #include "main.h"
-
 /**
- * Description main function
+ * main - Check description
+ * Description print the word
  * Return: 0.
 */
 int main(void)
